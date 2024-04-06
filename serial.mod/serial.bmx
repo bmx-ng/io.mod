@@ -1,4 +1,4 @@
-' Copyright (c) 2013-2023 Bruce A Henderson
+' Copyright (c) 2013-2024 Bruce A Henderson
 ' 
 ' Permission is hereby granted, free of charge, to any person obtaining a copy
 ' of this software and associated documentation files (the "Software"), to deal
@@ -25,11 +25,14 @@ bbdoc: Serial port interface.
 End Rem
 Module IO.Serial
 
-ModuleInfo "Version: 1.03"
+ModuleInfo "Version: 1.04"
 ModuleInfo "License: MIT"
 ModuleInfo "Copyright: Serial Library - 2012 William Woodall, John Harrison"
-ModuleInfo "Copyright: BlitzMax wrapper - 2013-2023 Bruce A Henderson"
+ModuleInfo "Copyright: BlitzMax wrapper - 2013-2024 Bruce A Henderson"
 
+ModuleInfo "History: 1.04"
+ModuleInfo "History: Update to woollybah/serial rev 6cec39e"
+ModuleInfo "History: Use PurgeComm on win32 flush"
 ModuleInfo "History: 1.03"
 ModuleInfo "History: Changed to use https://github.com/woollybah/serial rev 28d33dd"
 ModuleInfo "History: Converted consts to enums"
